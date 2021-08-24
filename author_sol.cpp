@@ -15,7 +15,7 @@ int main() {
 		r += x;
 		// output the quotient of 'r' and 'm' (no. of pages if we divide 'r' names in 'm' pages)
 		cout << r / m << " ";
-		// calculate the remaining pages (if there are)
+		// calculate the remaining names (if there are)
 		r %= m;
 	}
 	cout << '\n';
